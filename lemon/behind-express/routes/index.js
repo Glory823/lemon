@@ -54,21 +54,40 @@ router.post('/api/register', function(req, res, next) {
 });
 
 
+// //查询账单 --- 账单表
+// router.post('/api/billFind', function(req, res, next) {
+//     const uli = req.body.uli;
+//     const page = req.body.page;
+//     const pageSize = req.body.pageSize;
+//     const reg = new RegExp(req.body.timer);
+//     mongo.find(baseName, collBill, { "uli": uli, "timer": reg }, function(result) {
+//         if (result.length === 0) {
+//             res.json({ code: 0, data: result });
+//         } else {
+//             res.json({ code: 1, data: result });
+//         }
+//     }, {
+//         skip: (page - 1) * pageSize,
+//         limit: pageSize
+//     })
+// });
+
+
 //查询账单 --- 账单表
 router.post('/api/billFind', function(req, res, next) {
     const uli = req.body.uli;
-	const page = req.body.page;
-	const pageSize = req.body.pageSize;
-    mongo.find(baseName, collBill, { "uli": uli }, function(result) {
+    const reg = new RegExp(req.body.timer);
+    mongo.find(baseName, collBill, { "uli": uli, "timer": reg }, function(result) {
         if (result.length === 0) {
-            res.json({ code: 0, data: result});
+            res.json({ code: 0, data: result });
         } else {
             res.json({ code: 1, data: result });
         }
-    },{
-		skip:(page-1)*pageSize,
-		limit:pageSize
-	})
+    }, {
+        sort: {
+            "_id": -1
+        }
+    })
 });
 
 
@@ -87,10 +106,10 @@ router.post('/api/billRemove', function(req, res, next) {
 });
 
 
-
 //添加账单 --- 账单表
 router.post('/api/billInsert', function(req, res, next) {
     const body = req.body;
+    const id = req.body._id;
     mongo.insert(baseName, collBill, body, function(result) {
         if (result.result.n === 0) {
             res.json({ code: 0, msg: "增加失败" });
@@ -98,7 +117,50 @@ router.post('/api/billInsert', function(req, res, next) {
             res.json({ code: 1, msg: "增加成功" });
         }
     })
+});
 
+
+//查询用户分类 --- 分类表
+router.post('/api/classFind', function(req, res, next) {
+    const uli = req.body.uli;
+    const style = req.body.style;
+    mongo.find(baseName, collClass, { "uli": uli, "style": style }, function(result) {
+        if (result.length === 0) {
+            res.json({ code: 0, data: result });
+        } else {
+            res.json({ code: 1, data: result });
+        }
+    })
+});
+
+
+//添加用户分类 --- 用户分类表
+router.post('/api/classInsert', function(req, res, next) {
+    const body = req.body;
+    if (body.style == "z") {
+        body.style = "支出";
+    } else {
+        body.style = "收入";
+    }
+    mongo.insert(baseName, collClass, body, function(result) {
+        if (result.result.n === 0) {
+            res.json({ code: 0, msg: "增加失败" });
+        } else {
+            res.json({ code: 1, msg: "增加成功" });
+        }
+    })
+});
+
+
+//查询图标 --- 图标表
+router.post('/api/findIcon', function(req, res, next) {
+    mongo.find(baseName, collIcon, function(result) {
+        if (result.length === 0) {
+            res.json({ code: 0, data: result });
+        } else {
+            res.json({ code: 1, data: result });
+        }
+    })
 });
 
 

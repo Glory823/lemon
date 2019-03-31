@@ -45,8 +45,14 @@ gulp.task("webserver", () => {
             proxies: [
                 { source: "/api/login", target: "http://localhost:3000/api/login" },
                 { source: "/api/register", target: "http://localhost:3000/api/register" },
-				{ source: "/api/billFind", target: "http://localhost:3000/api/billFind" },
-				{ source: "/api/billRemove", target: "http://localhost:3000/api/billRemove" }
+                { source: "/api/billFind", target: "http://localhost:3000/api/billFind" },
+                { source: "/api/billRemove", target: "http://localhost:3000/api/billRemove" },
+                { source: "/api/classFind", target: "http://localhost:3000/api/classFind" },
+                { source: "/api/billInsert", target: "http://localhost:3000/api/billInsert" },
+                { source: "/api/findIcon", target: "http://localhost:3000/api/findIcon" },
+                { source: "/api/classInsert", target: "http://localhost:3000/api/classInsert" }
+
+
             ]
         }))
 
