@@ -1,0 +1,10 @@
+{"_id":{"$oid":"5c959b07ae89f1b6ddb677e6"},"uli":"5c9485726bcae4af6b906244","icon":"mui-icon mui-icon-person","style":"收入","intro":"妈妈给"}
+{"_id":{"$oid":"5c959b07ae89f1b6ddb677e7"},"uli":"5c9485726bcae4af6b906244","icon":"mui-icon mui-icon-home","style":"收入","intro":"工资"}
+{"_id":{"$oid":"5c959b07ae89f1b6ddb677e8"},"uli":"5c9485726bcae4af6b906244","icon":"mui-icon mui-icon-refresh","style":"支出","intro":"旅游"}
+{"_id":{"$oid":"5c959b07ae89f1b6ddb677e9"},"uli":"5c9485726bcae4af6b906244","icon":"mui-icon mui-icon-paperclip","style":"支出","intro":"水果"}
+{"_id":{"$oid":"5c959b07ae89f1b6ddb677ea"},"uli":"5c9485726bcae4af6b906244","icon":"mui-icon mui-icon-help","style":"收入","intro":"奖金"}
+{"_id":{"$oid":"5c959b07ae89f1b6ddb677ee"},"uli":"5c9485726bcae44f6b906244","icon":"mui-icon mui-icon-checkmarkempty","style":"收入","intro":"红包"}
+{"_id":{"$oid":"5c9e009fa7450b282fa6714f"},"uli":"5c9485726bcae4af6b906244","icon":"mui-icon-trash","style":"支出","intro":"公交"}
+{"_id":{"$oid":"5c9eeb5f50b74c5dc0bfc037"},"uli":"5c9485726bcae4af6b906244","icon":"mui-icon mui-icon-image","style":"支出","intro":"12"}
+{"_id":{"$oid":"5ca0a00bbe1b3a32381eaf05"},"uli":"5c9485726bcae4af6b906244","icon":"mui-icon mui-icon-info","style":"支出","intro":"理财"}
+{"_id":{"$oid":"5ca42890b598100af8bd089a"},"uli":"5c9485726bcae4af6b906244","icon":"mui-icon mui-icon-image","style":"支出","intro":"玩"}

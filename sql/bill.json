@@ -1,0 +1,37 @@
+{"_id":{"$oid":"5c9c6f6d8e1958eb3b5be8df"},"uli":"5c9485726bcae4af6b906244","icon":"mui-icon-trash","style":"公交","income":"支出","timer":"2019-03","money":"20"}
+{"_id":{"$oid":"5c9c6f6d8e1958eb3b5be8e0"},"uli":"5c9485726bcae4af6b906244","icon":"mui-icon-trash","style":"地铁","income":"支出","timer":"2019-03","money":"50"}
+{"_id":{"$oid":"5c9c6f6d8e1958eb3b5be8e1"},"uli":"5c9485726bcae4af6b906244","icon":"mui-icon-trash","style":"公交","income":"支出","timer":"2018-05","money":"20"}
+{"_id":{"$oid":"5c9c6f6d8e1958eb3b5be8e2"},"uli":"5c9485726bcae4af6b906244","icon":"mui-icon-trash","style":"工资","income":"收入","timer":"2019-03","money":"15300"}
+{"_id":{"$oid":"5c9c6f6d8e1958eb3b5be8e3"},"uli":"5c9485726bcae4af6b906244","icon":"mui-icon-trash","style":"奖金","income":"收入","timer":"2019-03","money":"1530"}
+{"_id":{"$oid":"5c9c6f6d8e1958eb3b5be8e4"},"uli":"5c9485726bcae4af6b906244","icon":"mui-icon-trash","style":"工资","income":"收入","timer":"2018-05","money":"15000"}
+{"_id":{"$oid":"5c9c6f6d8e1958eb3b5be8e5"},"uli":"5c9485726bcae4af6b906244","icon":"mui-icon-trash","style":"水果","income":"支出","timer":"2018-05","money":"50"}
+{"_id":{"$oid":"5c9c6f6d8e1958eb3b5be8e6"},"uli":"5c9485726bcae4af6b906244","icon":"mui-icon-trash","style":"旅游","income":"支出","timer":"2019-03","money":"2500"}
+{"_id":{"$oid":"5c9c6f6d8e1958eb3b5be8e7"},"uli":"5c9485726bcae4af6b906244","icon":"mui-icon-trash","style":"奖励","income":"收入","timer":"2019-03","money":"50"}
+{"_id":{"$oid":"5c9c6f6d8e1958eb3b5be8e8"},"uli":"5c9485726bcae2af6b906244","icon":"mui-icon-trash","style":"红包","income":"收入","timer":"2018-05","money":"100"}
+{"_id":{"$oid":"5c9c6f6d8e1958eb3b5be8e9"},"uli":"5c9485726bcasdaf6b906244","icon":"mui-icon-trash","style":"奖金","income":"收入","timer":"2019-03","money":"15000"}
+{"_id":{"$oid":"5c9c6f6d8e1958eb3b5be8ea"},"uli":"5c9485726bcae4af6b906244","icon":"mui-icon-trash","style":"水果","income":"支出","timer":"2019-03","money":"50"}
+{"_id":{"$oid":"5c9c6f6d8e1958eb3b5be8eb"},"uli":"5c9485726bcae4af6b906244","icon":"mui-icon-trash","style":"旅游","income":"支出","timer":"2018-04","money":"5000"}
+{"_id":{"$oid":"5c9c6f6d8e1958eb3b5be8ec"},"uli":"5c9485726bcae4af6b906244","icon":"mui-icon-trash","style":"工资","income":"收入","timer":"2019-03","money":"10000"}
+{"_id":{"$oid":"5c9c6f6d8e1958eb3b5be8ed"},"uli":"5c9485726bcae4af6b906244","icon":"mui-icon-trash","style":"旅游","income":"支出","timer":"2019-03","money":"3500"}
+{"_id":{"$oid":"5c9c6f6d8e1958eb3b5be8ee"},"uli":"5c9485726bcae4af6b906244","icon":"mui-icon-trash","style":"公交","income":"支出","timer":"2019-03","money":"20"}
+{"_id":{"$oid":"5c9c6f6d8e1958eb3b5be8ef"},"uli":"5c9485726bcae4af6b906244","icon":"mui-icon-trash","style":"地铁","income":"支出","timer":"2019-03","money":"50"}
+{"_id":{"$oid":"5c9c6f6d8e1958eb3b5be8f0"},"uli":"5c9485726bcae4af6b906244","icon":"mui-icon-trash","style":"公交","income":"支出","timer":"2018-05","money":"20"}
+{"_id":{"$oid":"5c9c6f6d8e1958eb3b5be8f1"},"uli":"5c9485726bcae2af6b906244","icon":"mui-icon-trash","style":"奖金","income":"收入","timer":"2018-05","money":"15300"}
+{"_id":{"$oid":"5c9c6f6d8e1958eb3b5be8f2"},"uli":"5c9485726bcasdaf6b906244","icon":"mui-icon-trash","style":"奖金","income":"收入","timer":"2019-03","money":"1530"}
+{"_id":{"$oid":"5c9c6f6d8e1958eb3b5be8f3"},"uli":"5c9485726bcae4af6b906244","icon":"mui-icon-trash","style":"工资","income":"收入","timer":"2018-05","money":"15000"}
+{"_id":{"$oid":"5c9c6f6d8e1958eb3b5be8f4"},"uli":"5c9485726bcae4af6b906244","icon":"mui-icon-trash","style":"水果","income":"支出","timer":"2018-05","money":"50"}
+{"_id":{"$oid":"5c9c6f6d8e1958eb3b5be8f5"},"uli":"5c9485726bcae4af6b906244","icon":"mui-icon-trash","style":"旅游","income":"支出","timer":"2019-03","money":"2500"}
+{"_id":{"$oid":"5c9c6f6d8e1958eb3b5be8f6"},"uli":"5c9485726bcae4af5b906244","icon":"mui-icon-trash","style":"奖励","income":"收入","timer":"2019-03","money":"50"}
+{"_id":{"$oid":"5c9c6f6d8e1958eb3b5be8f7"},"uli":"5c9485726bcae2af6b906244","icon":"mui-icon-trash","style":"红包","income":"收入","timer":"2018-05","money":"100"}
+{"_id":{"$oid":"5c9c6f6d8e1958eb3b5be8f8"},"uli":"5c9485726bcasdaf6b906244","icon":"mui-icon-trash","style":"奖金","income":"收入","timer":"2019-03","money":"15000"}
+{"_id":{"$oid":"5c9c6f6d8e1958eb3b5be8f9"},"uli":"5c9485726bcae4af6b906244","icon":"mui-icon-trash","style":"水果","income":"支出","timer":"2019-03","money":"50"}
+{"_id":{"$oid":"5c9c6f6d8e1958eb3b5be8fa"},"uli":"5c9485726bcae4af6b906244","icon":"mui-icon-trash","style":"旅游","income":"支出","timer":"2018-04","money":"5000"}
+{"_id":{"$oid":"5c9c6f6d8e1958eb3b5be8fb"},"uli":"5c9485726bcae4af6b906244","icon":"mui-icon-trash","style":"工资","income":"收入","timer":"2018-05","money":"10000"}
+{"_id":{"$oid":"5c9c6f6d8e1958eb3b5be8fc"},"uli":"5c9485726bcae4af6b906244","icon":"mui-icon-trash","style":"旅游","income":"支出","timer":"2019-03","money":"3500"}
+{"_id":{"$oid":"5c9ecf9017499209c4f1789a"},"uli":"5c9485726bcae4af6b906244","icon":"mui-icon-trash","style":"公交","income":"支出","timer":"2019-03","money":"6"}
+{"_id":{"$oid":"5c9ecfb117499209c4f1789c"},"uli":"5c9485726bcae4af6b906244","icon":"mui-icon mui-icon-person","style":"妈妈给","income":"收入","timer":"2019-03","money":"200"}
+{"_id":{"$oid":"5ca0a01abe1b3a32381eaf06"},"uli":"5c9485726bcae4af6b906244","icon":"mui-icon mui-icon-info","style":"理财","income":"支出","timer":"2019-03","money":"600"}
+{"_id":{"$oid":"5ca425feb598100af8bd0897"},"uli":"5c9485726bcae4af6b906244","icon":"mui-icon mui-icon-paperclip","style":"水果","income":"支出","timer":"2019-04","money":"60"}
+{"_id":{"$oid":"5ca42610b598100af8bd0898"},"uli":"5c9485726bcae4af6b906244","icon":"mui-icon mui-icon-person","style":"妈妈给","income":"收入","timer":"2019-04","money":"1000"}
+{"_id":{"$oid":"5ca42980b598100af8bd089c"},"uli":"5c9485726bcae4af6b906244","icon":"mui-icon mui-icon-image","style":"玩","income":"支出","timer":"2019-04","money":"100"}
+{"_id":{"$oid":"5ca429d7b598100af8bd089f"},"uli":"5c9485726bcae4af6b906244","icon":"mui-icon mui-icon-info","style":"理财","income":"支出","timer":"2019-04","money":"25"}
